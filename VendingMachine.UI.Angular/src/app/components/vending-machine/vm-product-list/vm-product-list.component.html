@@ -1,0 +1,24 @@
+<section id="products">
+  <h3>Choose a product</h3>
+  <div class="row">
+    <ng-template ngFor let-creatorProduct [ngForOf]="creatorProducts" let-i="index">
+        <div class="col-sm-3 col-md-3 hvr-float">
+          <div class="product-info-block">
+            <div class="product-info product-name">{{creatorProduct.product.name}}</div>
+            <div class="product-info">{{creatorProduct.product.price | currency}}</div>
+            <div *ngIf="creatorProduct.availability" class="product-info">
+              <i class="fas fa-battery-half"></i> {{creatorProduct.availability}}
+            </div>
+            <div *ngIf="!creatorProduct.availability" class="product-info">
+              <i class="fas fa-battery-empty"></i> {{creatorProduct.availability}}
+            </div>
+            <button class="btn btn-success" (click)="buyProduct(creatorProduct)" *ngIf="creatorProduct.availability">
+              <i class="fas fa-shopping-basket"></i> Buy
+            </button>
+          </div>
+        </div>
+        <div *ngIf="i > 0 && i % 3 == 0" class="col-12 shelf d-md-none d-lg-none"></div>
+    </ng-template>
+    <div class="col-12 shelf"></div>
+  </div>
+</section>

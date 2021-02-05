@@ -1,0 +1,20 @@
+<div class="container">
+  <nav class="navbar navbar-light bg-light justify-content-between">
+      <a class="navbar-brand">
+          <img src="../../assets/logo-vm.png" alt="" height="30" />
+      </a>
+      <form class="form-inline">
+        <a class="btn btn-outline-danger my-2 my-sm-0" (click)="logout()">
+          <i class="fas fa-sign-out-alt"></i> Logout
+        </a>
+      </form>
+  </nav>
+  <div class="row">
+    <div class="col-md-4 user-col">
+      <app-customer [customer]="vendingMachineState?.customer" (refreshDataVM)="refreshDataVM($event)"></app-customer>
+    </div>
+    <div class="col-md-7 offset-md-1 vm-col vm-col">
+      <app-vending-machine [vendingMachine]="vendingMachineState?.vendingMachine" (refreshDataVM)="refreshDataVM($event)"></app-vending-machine>
+    </div>
+  </div>
+</div>

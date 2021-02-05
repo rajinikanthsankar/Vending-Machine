@@ -1,0 +1,17 @@
+F:\VendingMachineWebAPIAngular-master\VendingMachine.Core\bin\Debug\netcoreapp2.2\VendingMachine.Core.deps.json
+F:\VendingMachineWebAPIAngular-master\VendingMachine.Core\bin\Debug\netcoreapp2.2\VendingMachine.Core.dll
+F:\VendingMachineWebAPIAngular-master\VendingMachine.Core\bin\Debug\netcoreapp2.2\VendingMachine.Core.pdb
+F:\VendingMachineWebAPIAngular-master\VendingMachine.Core\obj\Debug\netcoreapp2.2\VendingMachine.Core.AssemblyInfoInputs.cache
+F:\VendingMachineWebAPIAngular-master\VendingMachine.Core\obj\Debug\netcoreapp2.2\VendingMachine.Core.AssemblyInfo.cs
+F:\VendingMachineWebAPIAngular-master\VendingMachine.Core\obj\Debug\netcoreapp2.2\VendingMachine.Core.csproj.CoreCompileInputs.cache
+F:\VendingMachineWebAPIAngular-master\VendingMachine.Core\obj\Debug\netcoreapp2.2\VendingMachine.Core.dll
+F:\VendingMachineWebAPIAngular-master\VendingMachine.Core\obj\Debug\netcoreapp2.2\VendingMachine.Core.pdb
+F:\VendingMachineAPI\VendingMachine.Core\bin\Debug\netcoreapp2.2\VendingMachine.Core.deps.json
+F:\VendingMachineAPI\VendingMachine.Core\bin\Debug\netcoreapp2.2\VendingMachine.Core.dll
+F:\VendingMachineAPI\VendingMachine.Core\bin\Debug\netcoreapp2.2\VendingMachine.Core.pdb
+F:\VendingMachineAPI\VendingMachine.Core\obj\Debug\netcoreapp2.2\VendingMachine.Core.csprojAssemblyReference.cache
+F:\VendingMachineAPI\VendingMachine.Core\obj\Debug\netcoreapp2.2\VendingMachine.Core.AssemblyInfoInputs.cache
+F:\VendingMachineAPI\VendingMachine.Core\obj\Debug\netcoreapp2.2\VendingMachine.Core.AssemblyInfo.cs
+F:\VendingMachineAPI\VendingMachine.Core\obj\Debug\netcoreapp2.2\VendingMachine.Core.csproj.CoreCompileInputs.cache
+F:\VendingMachineAPI\VendingMachine.Core\obj\Debug\netcoreapp2.2\VendingMachine.Core.dll
+F:\VendingMachineAPI\VendingMachine.Core\obj\Debug\netcoreapp2.2\VendingMachine.Core.pdb
